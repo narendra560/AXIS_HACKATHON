@@ -1,0 +1,5 @@
+com/aifarms/java_common/exceptions/BadRequestException.class
+com/aifarms/java_common/exceptions/ExceptionHandlerAdvicer.class
+com/aifarms/java_common/exceptions/SystemException.class
+com/aifarms/java_common/exceptions/ErrorResponse.class
+com/aifarms/java_common/JavaCommonApplication.class
