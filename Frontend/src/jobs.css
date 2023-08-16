@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1; /* Dark blue background */
+}
+
+
+header {
+    background-color: #1a1a33; /* Dark blue background for header */
+    padding: 20px;
+    text-align: left;
+    color: white;
+    font-family:sans-serif;
+    font-weight: normal;  
+    
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.jobs_search-bar {
+    position: relative;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    /* Adjusted padding to accommodate the icon */
+    padding: 15px 10px 10px 15px;
+    border: 1px solid #000000;
+    border-color: black;
+    border-radius: 10px;
+    width: 200px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    
+}
+.go-button {
+    padding: 10px 20px;
+    background-color: #1a1a33; /* Dark blue background for button */
+    color: #fff; /* White text color for button */
+    border: 2px solid #1a1a33; /* Dark blue border for button */
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.go-button:hover {
+    background-color: #fff; /* White background on hover */
+    color: #1a1a33; /* Dark blue text color on hover */
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 200%;
+    margin: 10px;
+    padding-left: 3%;
+    
+    
+}
+
+.container-item {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #1a1a33;
+    border-radius: 4px;
+    padding-right: 20px;
+    padding-left: 30px;
+    /* margin: 2px 0; */
+    
+}
+
+/* CSS styles remain the same */
+.container-wrapper {
+    max-height: 700px; /* Set the desired height for the container area */
+    overflow: auto; /* Add vertical scrollbar when contents overflow */
+    padding-right: 10px;
+    display: flex;
+    width: 25%;
+    
+    
+}
+
+
+
+.main-container {
+    display: flex; /* Use flexbox to arrange main elements side by side */
+}
+
+.right-section {
+     /* Use flexbox to center the selected container */
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start; /* Align the selected container to the top */
+    flex-direction: column;
+    flex-grow: 1; 
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 20px;
+    border-left: 1px solid #817c7c; /* Add a vertical border to the right section */
+    border-right: 1px solid #817c7c;
+}
+
+.right-section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+   
+}
+
+.right-section h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #1a1a33;
+}
+
+.selected-container {
+    text-align: center; /* Center the text horizontally */
+    width: 100%;
+}
+
+.selected-heading-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    width: 100%;
+    padding-left: 150%;
+    margin-top: 0%
+}
+
+.location {
+    padding-left: 150%;
+    width: 90%;
+}
+
+.apply-button button {
+    background-color: #25256c; /* Dark blue background for button */
+    color: #fff; /* White text color for button */
+    border: 2px solid #1a1a33; /* Dark blue border for button */
+    border-radius: 4px;
+    /* margin-top: 20px; */
+    cursor: pointer;
+    width: 40%;
+    padding: 4%;
+    font-size: large;
+    margin-left: 180%;
+    margin-top: 10%;
+}
+
+.apply-button:hover {
+    background-color: #fff; /* White background on hover */
+    color: #1a1a33; /* Dark blue text color on hover */
+}
+
+.java-developer-heading {
+    text-align: center; /* Center the heading horizontally */
+    padding-bottom: 4%;
+    border-bottom: 0.5px solid rgb(144, 141, 141);
+   
+}
+
+.java-developer-heading h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.job-description-container {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 8px;
+    overflow: auto;
+
+}
+
+
+.job-description {
+    max-height: 450px;
+    overflow: auto;
+    
+}
+
+.i {
+    text-align: center;
+    color: #888;
+    
+}
+
+.i h5{
+    font-family: 'Raleway', sans-serif;
+    color: #888;
+}
+
+.role {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
+}
+.job_location {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
+}
